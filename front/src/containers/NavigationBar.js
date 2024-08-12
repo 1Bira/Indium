@@ -15,13 +15,13 @@ const NavigationBar = () => {
                         >
                             
                             <Nav.Item>
-                                <Nav.Link href='/home'>Active</Nav.Link>
+                                <Nav.Link href='/'>Active</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link href='/link-1'>Link</Nav.Link>
+                                <Nav.Link href='/blog'>Blog</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link href='/link-2'>Link</Nav.Link>
+                                <Nav.Link href='/cadastrar'>Cadastro</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link href='/disabled' disabled>Disabled</Nav.Link>
