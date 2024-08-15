@@ -14,9 +14,9 @@ const Cadastrar = () => {
     }
 
     const handleSubmit = (e)=>{
-        //e.preventDefault();
+        e.preventDefault();
         console.log('Cadastrou o Usuario!')
-        alert(formData)
+        //alert(formData)
     }
 
     return (
@@ -24,7 +24,7 @@ const Cadastrar = () => {
             <Row className="justify-content-md-center">
                 <Col md={6}>
                     <h2 className="text-center mb-4">Cadastro</h2>
-                    <Form onSubmit={handleSubmit} >
+                    <Form >
                         <Form.Group className="mb-3" controlId="formEmail">
                             <Form.Label>Email address</Form.Label>
                             <Form.Control 
@@ -53,13 +53,14 @@ const Cadastrar = () => {
                                 
                             />
                         </Form.Group>
-                        <Button variant="primary" type="submit" className="w-100 mt-3" >
+                        <Button variant="primary" type="submit" className="w-100 mt-3" onClick={handleSubmit} >
                             Submit
                         </Button>
+                        
                     </Form>
                 </Col>            
             </Row>
-            <br/>
+            <br/>           
             <br/>
         </Container>
         
