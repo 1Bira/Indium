@@ -8,5 +8,5 @@ Este projeto é desenvolvido na com ReactJS e outras tecnologias, utilizando as 
 
 ```mermaid
 flowchart TD
-    Frontend (Reactjs) --> Backend(FastAPI) --> id1[(Database)]
+    Frontend(Reactjs) --> Backend(FastAPI) --> id1[(Database)]
 ```
