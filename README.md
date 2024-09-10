@@ -5,3 +5,8 @@ Este projetos é uma aplicação em React and FAST API desenvolvida com o obseti
 ### Tecnologias
 
 Este projeto é desenvolvido na com ReactJS e outras tecnologias, utilizando as principais tecnologias de frontend.
+
+```mermaid
+flowchart TD
+    Start --> Stop
+```
